@@ -1,7 +1,7 @@
 var express = require('express');
 const router = express.Router();
 
-var storeController = require('../store.controller/controller');
+var storeController = require('../controller/store.controller');
 
 router.get('/store', storeController.getStoreList);
 router.post('/store/save', storeController.saveStore);

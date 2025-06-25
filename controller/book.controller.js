@@ -1,6 +1,7 @@
 var queries = require('../db/queries');
 var dbConnection = require('../db/connection');
 var util = require('../util/generator');
+
 var Logger = require('../services/logger.service');
 var auditService = require('../audit/audit.service');
 var auditAction = require('../audit/auditAction');

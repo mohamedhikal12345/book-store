@@ -1,0 +1,3 @@
+Updating the controller 
+merging the store and book in the same file controller 
+

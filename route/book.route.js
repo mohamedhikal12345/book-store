@@ -1,7 +1,7 @@
 var express = require('express');
 const router = express.Router();
 
-var bookController = require('../book.controller/controller');
+var bookController = require('../controller/book.controller');
 
 router.get('/books', bookController.getBookList);
 router.get('/books/details/:bookId', bookController.getBookDetails);
